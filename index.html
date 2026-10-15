@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA WORLD | Explore the Universe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="stars"></div>
+
+<nav>
+    <h2>🌌 NOVA WORLD</h2>
+    <a href="index.html">Home</a>
+    <a href="games.html">Games</a>
+    <a href="space.html">Space</a>
+    <a href="creative.html">Creative</a>
+    <a href="mystery.html">Mystery</a>
+    <a href="about.html">About</a>
+</nav>
+
+<section class="hero">
+    <h1>WELCOME TO NOVA WORLD</h1>
+
+    <p>
+        A magical digital universe filled with games, space exploration,
+        creativity and mysteries. Discover something new every day!
+    </p>
+
+    <a href="space.html">
+        <button>🚀 Explore Universe</button>
+    </a>
+
+    <button onclick="toggleMusic()" id="musicButton">
+        🎵 Play Music
+    </button>
+
+    <p id="musicStatus"></p>
+</section>
+
+<section class="content">
+    <h1>✨ Discover Your Universe</h1>
+    <p>Choose your favourite world and start exploring!</p>
+
+    <div class="cards">
+
+        <article class="card">
+            <h2>🎮 Gaming World</h2>
+            <p>Play fun games and challenge your brain.</p>
+            <a href="games.html"><button>Play Now</button></a>
+        </article>
+
+        <article class="card">
+            <h2>🚀 Space World</h2>
+            <p>Explore planets, stars and galaxies.</p>
+            <a href="space.html"><button>Explore</button></a>
+        </article>
+
+        <article class="card">
+            <h2>🎨 Creative World</h2>
+            <p>Write stories and discover your imagination.</p>
+            <a href="creative.html"><button>Create</button></a>
+        </article>
+
+        <article class="card">
+            <h2>🔮 Mystery Zone</h2>
+            <p>Solve riddles and test your thinking skills.</p>
+            <a href="mystery.html"><button>Solve Mystery</button></a>
+        </article>
+
+        <article class="card">
+            <h2>🎁 Surprise Zone</h2>
+            <p>Discover a random positive message.</p>
+            <button onclick="surprise()">Surprise Me</button>
+            <p id="surpriseText" class="result"></p>
+        </article>
+
+        <article class="card">
+            <h2>💜 About Us</h2>
+            <p>Learn about the NOVA WORLD project.</p>
+            <a href="about.html"><button>Discover</button></a>
+        </article>
+
+    </div>
+</section>
+
+<footer>
+    NOVA WORLD | Your Imagination, Your Universe 💜
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

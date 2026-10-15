@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA WORLD | Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="stars"></div>
+
+<nav>
+    <h2>🌌 NOVA WORLD</h2>
+    <a href="index.html">Home</a>
+    <a href="games.html">Games</a>
+    <a href="space.html">Space</a>
+    <a href="creative.html">Creative</a>
+    <a href="mystery.html">Mystery</a>
+    <a href="about.html">About</a>
+</nav>
+
+<section class="content">
+    <h1>🎮 Gaming World</h1>
+    <p>Ready to play?</p>
+
+    <div class="cards">
+
+        <div class="card">
+            <h2>🔢 Number Guess</h2>
+            <p>Guess a number between 1 and 10.</p>
+
+            <input type="number" id="guess" min="1" max="10"
+                   placeholder="Enter a number">
+
+            <button onclick="checkGuess()">Check</button>
+            <p id="guessResult" class="result"></p>
+        </div>
+
+        <div class="card">
+            <h2>🪙 Coin Toss</h2>
+            <p>Choose heads or tails!</p>
+
+            <button onclick="coinToss('Heads')">Heads</button>
+            <button onclick="coinToss('Tails')">Tails</button>
+
+            <p id="coinResult" class="result"></p>
+        </div>
+
+        <div class="card">
+            <h2>✨ Fun Facts</h2>
+            <p>Discover a random space fact.</p>
+
+            <button onclick="showFact()">Show Fact</button>
+            <p id="factResult" class="result"></p>
+        </div>
+
+    </div>
+</section>
+
+<footer>NOVA WORLD Gaming Zone 🎮</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

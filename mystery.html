@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA WORLD | Mystery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="stars"></div>
+
+<nav>
+    <h2>🌌 NOVA WORLD</h2>
+    <a href="index.html">Home</a>
+    <a href="games.html">Games</a>
+    <a href="space.html">Space</a>
+    <a href="creative.html">Creative</a>
+    <a href="mystery.html">Mystery</a>
+    <a href="about.html">About</a>
+</nav>
+
+<section class="content">
+    <h1>🔮 Mystery Zone</h1>
+    <p>Think carefully and solve the riddles!</p>
+
+    <div class="card">
+        <h2>🧩 Riddle Challenge</h2>
+
+        <p id="riddleQuestion" class="result">
+            I have keys but no locks. I have space but no room. What am I?
+        </p>
+
+        <input id="riddleAnswer" placeholder="Enter your answer">
+
+        <br>
+
+        <button onclick="checkRiddle()">Check Answer</button>
+        <button onclick="nextRiddle()">Next Riddle</button>
+
+        <p id="riddleResult" class="result"></p>
+    </div>
+</section>
+
+<footer>Every Mystery Has an Answer 🔮</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA WORLD | Creative</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="stars"></div>
+
+<nav>
+    <h2>🌌 NOVA WORLD</h2>
+    <a href="index.html">Home</a>
+    <a href="games.html">Games</a>
+    <a href="space.html">Space</a>
+    <a href="creative.html">Creative</a>
+    <a href="mystery.html">Mystery</a>
+    <a href="about.html">About</a>
+</nav>
+
+<section class="content">
+    <h1>🎨 Creative World</h1>
+    <p>Bring your imagination to life!</p>
+
+    <div class="card">
+        <h2>✍️ My Story Creator</h2>
+
+        <input id="storyTitle" placeholder="Enter your story title">
+
+        <textarea id="storyText"
+                  placeholder="Write your story here..."></textarea>
+
+        <br>
+
+        <button onclick="showStory()">Preview Story</button>
+        <button onclick="downloadStory()">Save Story</button>
+
+        <h2 id="previewTitle"></h2>
+        <p id="previewStory" class="result"></p>
+    </div>
+
+    <div class="card">
+        <h2>🌈 Inspiration Generator</h2>
+        <p>Need a creative idea?</p>
+        <button onclick="getIdea()">Get an Idea</button>
+        <p id="ideaResult" class="result"></p>
+    </div>
+</section>
+
+<footer>Create Something Wonderful ✨</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
